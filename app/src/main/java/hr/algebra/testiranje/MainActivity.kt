@@ -20,4 +20,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate( savedInstanceState )
         setContentView( R.layout.activity_main )
     }
+
+    private fun initViews( ) {
+        tvRez =   findViewById( R.id.tvRez )
+        etPrvi =  findViewById( R.id.etFirst )
+        etDrugi = findViewById( R.id.etSecond )
+        bPuta =   findViewById( R.id.bMnozenje )
+        bKroz =   findViewById( R.id.bDijeljenje )
+        bPlus =   findViewById( R.id.bZbrajanje )
+        bMinus =  findViewById( R.id.bOduzimanje )
+    }
 }
